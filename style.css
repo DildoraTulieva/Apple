@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.container{
+    display: flex;
+    color: rgb(181, 179, 179);
+    list-style: none;
+}
+
+.container li{
+    margin-left: 30px;
+}
+
+.Phonephoto {
+    width: 100%; 
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url("https://www.apple.com/v/home/bl/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text__top{
+    width: 500px;
+    height: 200px;
+    margin-top: -200px;
+    text-align: center;
+
+}
+.text__top h1{
+    font-size: 50px;
+    color: aliceblue;    
+}
+
+.text__top p{
+    font-size: 25px;
+    color: aliceblue;    
+}
+
+.text__top a{
+    font-size: 20px;
+    color: rgb(10, 98, 175);
+      
+}
+.spa{
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 70%;
+
+    margin: 10px auto;
+
+}
+.footer__top{
+    width: 100%;
+    height: auto;
+}
+.footer__top p{
+    color: rgb(101, 100, 100);
+    font-size: 13px;
+}
+
+.footer__center{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.center__card{
+    width: 20%;
+    height: 400px;
+}
+.card__ul{
+    line-height: 22px;
+}
+.card__ul li{
+    color: rgb(101, 100, 100);
+    font-size: 13px;
+    list-style: none;
+    
+}
+.card__ul li b{
+    color: rgb(70, 69, 69);
+}
+
+.footer__bottom{
+    width: 100%;
+    height: 100px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom p{
+    color: rgb(101, 100, 100);
+    font-size: 13px;
+}
